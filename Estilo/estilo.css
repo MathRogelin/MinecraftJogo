@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 60% auto;
+    width: 100%;
+    height: 100vh;
+    font-family: 'MinecraftiaRegular';
+}
+.minecraft{
+    height: 100%;
+    background-color: rgb(0, 179, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+#block{
+    width: 10%;
+    height: 10%;
+}
+.inventory{
+    height: 100%;
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 60%;
+}
+.grade #item{
+    padding: 0px;
+    width: 20%;
+    height: 20%;
+    margin: 2px;
+    background-color: rgb(120, 120, 120);
+    border: 4px groove rgb(180, 180, 180);
+}
+.grade #item:hover{
+    border-color: #fff;
+}
+.grade #item:active{
+    border-color: #f00;
+}
+.block_earth, .block_glass, .block_grass, .block_grass2, .block_stone, .block_water,
+ .block_woodenPlanks, .block_woodLogs, .flower_red, .flower_yellow, .hen, .ocelot, 
+ .wolf, .glass, .muchroom, .banny{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+.block_grass{
+    background-image: url(terra.jpeg);
+}
+.block_stone{
+    background-image: url(pedregulho.jpeg);
+}
+.block_earth{
+    background-image: url(terra2.png);
+    background-position: top;
+}
+.block_woodLogs{
+    background-image: url(madeira.jpeg);
+}
+.block_grass2{
+    background-image: url(grama.webp);
+}
+.block_woodenPlanks{
+    background-image: url(tábua\ de\ madeira.jpeg);
+}
+.block_glass{
+    background-image: url(vidro.png);
+}
+.block_water{
+    background-image: url(água.jpeg);
+}
+.flower_yellow{
+    background-image: url(dente\ de\ Leão.webp);
+}
+.flower_red{
+    background-image: url(rosa.png);
+}
+.wolf{
+    background-image: url(lobo.webp);
+    background-size: contain;
+}
+.hen{
+    background-image: url(galinha.webp);
+    background-size: contain;
+}
+.ocelot{
+    background-image: url(gato.webp);
+    background-size: contain;
+}
+.glass{
+    background-image: url(folhas.jpg);
+}
+.muchroom{
+    background-image: url(cogumelo.webp);
+    background-position: top;
+}
+.banny{
+    background-image: url(coelho.webp);
+    background-size: contain;
+}
